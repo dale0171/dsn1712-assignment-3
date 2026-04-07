@@ -41,8 +41,9 @@ header a{
 #hero{
     height: 600px;
     display: flex;
-    background-image: url("https://dale0171.github.io/dsn1712-assignment-3/images/hands-typing.jpg");
+    background-image: url("../images/hands-typing.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: #000;
     color: #fff;
