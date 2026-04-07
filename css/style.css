@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 940px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+}
+
+header .wrapper{
+    display: flex;
+}
+
+header nav{
+    justify-self: right;
+    margin-left: auto;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero{
+    height: 600px;
+    display: flex;
+    background-image: url("images/hands-typing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #fff;
+    filter: grayscale(70%);
+    text-align: center;
+    align-content: center;
+    margin-bottom: 0px;
+}
+
+#hero h1{
+    padding: 60px;
+    max-width: 60%;
+    margin: auto;
+    background-color: #00000080;
+    text-shadow: 2px 2px #000;
+}
+
+#about-me .wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#about-me .wrapper div{
+    text-align: left;
+    grid-column-end: 2 span;
+}
+
+#about-me img{
+    margin-left: 60px;
+    max-height: 100%;
+    max-width: 100%;
+    align-self: end;
+}
+
+#services{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fafafa;
+    margin-top: 40px;
+}
+
+#services h2{
+    text-align: center;
+    max-width: 30%;
+    margin: auto;
+}
+
+.article-boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    text-align: left;
+}
+
+.article-boxes article{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    width: 240px;
+    justify-content: left;
+}
+
+.article-boxes article p,
+.article-boxes article h3{
+    margin-top: 0;
+}
+
+.btn{
+    display: block;
+    padding: 10px;
+    margin-top: auto;
+    background-color: #000;
+    color: #fff;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#work p{
+    max-width: 60%;
+    margin: 0 auto 40px auto;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+
+.image-grid img{
+    grid-column-end: span 2;
+    margin: 0;
+    max-width: 100%;
+}
+
+.image-grid img:nth-child(2),
+.image-grid img:nth-child(1){
+    grid-column-end: span 3;
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin-top: 40px;
+    padding: 30px;
+}
